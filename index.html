@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikki Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loader.css">
+</head>
+
+<body>
+ <div class="loadermain">
+  <div class="loader">
+    <div class="pizza-slice slice-1">
+      <div class="border">
+        <div class="crust"></div>
+        <div class="cheese">
+          <div class="peperoni p-1"></div>
+          <div class="peperoni p-2"></div>
+          <div class="peperoni p-3"></div>
+          <div class="olive o-1"></div>
+          <div class="olive o-3"></div>
+          <div class="olive o-4"></div>
+          <div class="olive o-6"></div>
+          <div class="olive o-7"></div>
+        </div>
+      </div>
+    </div>
+    <div class="pizza-slice slice-2">
+      <div class="border">
+        <div class="crust"></div>
+        <div class="cheese">
+          <div class="peperoni p-1"></div>
+          <div class="peperoni p-2"></div>
+          <div class="peperoni p-3"></div>
+          <div class="olive o-1"></div>
+          <div class="olive o-2"></div>
+          <div class="olive o-3"></div>
+          <div class="olive o-6"></div>
+          <div class="olive o-7"></div>
+        </div>
+      </div>
+    </div>
+    <div class="pizza-slice slice-3">
+      <div class="border">
+        <div class="crust"></div>
+        <div class="cheese">
+          <div class="peperoni p-1"></div>
+          <div class="peperoni p-2"></div>
+          <div class="peperoni p-3"></div>
+          <div class="olive o-3"></div>
+          <div class="olive o-4"></div>
+          <div class="olive o-5"></div>
+          <div class="olive o-6"></div>
+        </div>
+      </div>
+    </div>
+    <div class="pizza-slice slice-4">
+      <div class="border">
+        <div class="crust"></div>
+        <div class="cheese">
+          <div class="peperoni p-1"></div>
+          <div class="peperoni p-2"></div>
+          <div class="peperoni p-3"></div>
+          <div class="olive o-1"></div>
+          <div class="olive o-2"></div>
+          <div class="olive o-3"></div>
+          <div class="olive o-4"></div>
+        </div>
+      </div>
+    </div>
+    <div class="pizza-slice slice-5">
+      <div class="border">
+        <div class="crust"></div>
+        <div class="cheese">
+          <div class="peperoni p-1"></div>
+          <div class="peperoni p-2"></div>
+          <div class="peperoni p-3"></div>
+          <div class="olive o-1"></div>
+          <div class="olive o-2"></div>
+          <div class="olive o-6"></div>
+          <div class="olive o-7"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div> 
+
+
+  <header>
+    <div id="logo">
+      <img src="pizza logo.png" width="70px" height="70px">
+      <h1 id="main-name">Nikki Restaurant Dashboard</h1>
+    </div>
+  </header>
+  <nav id="navbar">
+
+    <ul>
+      <li><button><a href="/">Order Section</a></button></li>
+      <li><button><a href="/services.html">About Us</a></button></li>
+      <li><button><a href="/contact.html">Contact Us</a></button></li>
+    </ul>
+  </nav>
+  <section id="order-section">
+    <button id="menu-btn"><span>Restaurant Menu</span></button>
+    <button id="orders-btn"><span>Orders</span></button>
+
+  </section>
+
+  <section id="services-container"  class="visible">
+    <h1 class="h-primary center">
+      Our services
+    </h1>
+    <div id="services">
+      <div class="box">
+        <img src="pizza.png">
+        <h2 class="h-secondary center">Food catering</h2>
+        <p class="center">At Nikki Restaurant, we understand that every event is unique and requires a personalized
+          touch. Our catering services are designed to provide you with a stress-free and memorable experience.
+        </p>
+      </div>
+      <div class="box">
+        <img src="burger.png">
+        <h2 class="h-secondary center">bulk Ordering</h2>
+        <p class="center">At Nikki Restaurant, we're happy to accommodate large orders for parties, events, and
+          corporate functions. Our bulk ordering options make it easy to feed a crowd.</p>
+      </div>
+      <div class="box">
+        <img src="delivary.jpg">
+        <h2 class="h-secondary center">Food Ordering</h2>
+        <p class="center">At Nikki Restaurant, we're committed to making your dining experience as convenient as
+          possible. Order online and enjoy your favorite dishes from the comfort of your own home.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Menu Card Section -->
+  <section id="menu-section" class="hidden" style="display: none;">
+    <h2 class="Order-heading">Restaurant Menu</h2>
+    <div class="menu-card">
+      <div class="menu-item">
+        <h3>Corn Pizza</h3>
+        <p>A classic delight with mozzarella and some spices</p>
+        <span>100.99 RS</span>
+        <button class="add-order-btn" data-item="Corn Pizza" data-price="100.99">Add to Order</button>
+      </div>
+      <div class="menu-item">
+        <h3>CheesePizza</h3>
+        <p>Traditional Indian Pizza with Cheese.</p>
+        <span>120.99 RS</span>
+        <button class="add-order-btn" data-item="Cheese Pizza" data-price="120.99">Add to Order</button>
+      </div>
+      <div class="menu-item">
+        <h3>Grilled Chicken Salad</h3>
+        <p>Fresh greens with grilled chicken and vinaigrette.</p>
+        <span>109.99 RS</span>
+        <button class="add-order-btn" data-item="Grilled Chicken Salad" data-price="109.99">Add to Order</button>
+      </div>
+      <div class="menu-item">
+        <h3>Cheesecake</h3>
+        <p>Rich and creamy cheesecake with a graham cracker crust.</p>
+        <span>116.99 RS</span>
+        <button class="add-order-btn" data-item="Cheesecake" data-price="116.99">Add to Order</button>
+      </div>
+      <div class="menu-item" id="pizza">
+        <h3>Paneercheese pizza</h3>
+        <p>Rich and soft paneer cubes with a graham cracker crust.</p>
+        <span>120.99 RS</span>
+        <button class="add-order-btn" data-item="Paneercheese pizza" data-price="116.99">Add to Order</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order List Section -->
+  <section id="orders-section" class="hidden" style="display: none;">
+    <h2 class="Order-heading">Order List</h2>
+    <table class="order-list-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th class="order-list" class="Item">Item</th>
+          <th class="order-list">Price</th>
+          <th class="order-list">Quantity</th>
+          <th class="order-list">Total</th>
+          <th class="order-list">Order Placed</th>
+          <th class="order-list">Remove Order</th>
+          <th class="order-list">Update Order</th>
+        </tr>
+      </thead>
+      <tbody id="orders-table">
+        <!-- Orders will be dynamically added here -->
+      </tbody>
+    </table>
+    <p id="Amount"></p>
+    <div><button id="Total-btn" type="button" data-modal-target="#modal">Make Payment </button></div>
+  </section>
+
+  <footer>
+    <div class="center">Copyright &copy; www.NikkiRestaurant.com All rights reserved</div>
+  </footer>
+
+
+  <form method="post" action="https://script.google.com/macros/s/AKfycbw0x7Kr9S-t0FYZOgCcwGFuWTE18e7ub8NYUQ5ncif7Lj-xFDU98Eh24gQtMr8Ciotw/exec" class="modal" id="modal" name="Nikki Restaurant order details">
+
+    <div class="row">
+      <div class="col">
+
+        <h3 class="title">BILLING ADDRESS</h3>
+
+        <div class="inputBox">
+          <span>full name :</span>
+          <input type="text" name="Name" id="name" placeholder="john deo">
+        </div>
+        <div class="inputBox">
+          <span>email :</span>
+          <input type="email" name="Email" id="email" placeholder="example@example.com">
+        </div>
+        <div class="inputBox">
+          <span>address :</span>
+          <input type="text" name="Address" id="address" placeholder="room - street - locality">
+        </div>
+        <div class="inputBox">
+          <span>city :</span>
+          <input type="text" name="City" id="city" placeholder="mumbai">
+        </div>
+
+        <div class="flex">
+          <div class="inputBox">
+            <span>state :</span>
+            <input type="text"   name="State" id="state" placeholder="india">
+          </div>
+          <div class="inputBox">
+            <span>zip code :</span>
+            <input type="text"  name="Zipcode" id="zipcode"  placeholder="123 456">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col">
+
+        <h3 class="title">PAYMENT<button type="button" data-close-button class="close-button">&times;</button></h3>
+
+
+        <div class="inputBox">
+          <span>cards accepted :</span>
+          <img src="images/card_img.png" alt="">
+        </div>
+        <div class="inputBox">
+          <span>name on card :</span>
+          <input type="text" placeholder="mr. john deo">
+        </div>
+        <div class="inputBox">
+          <span>credit card number :</span>
+          <input type="number" placeholder="1111-2222-3333-4444">
+        </div>
+        <div class="inputBox">
+          <span>exp month :</span>
+          <input type="text" placeholder="january">
+        </div>
+
+        <div class="flex">
+          <div class="inputBox">
+            <span>exp year :</span>
+            <input type="number" placeholder="2022">
+          </div>
+          <div class="inputBox">
+            <span>CVV :</span>
+            <input type="text" placeholder="1234">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <input type="submit" value="proceed to checkout" class="submit-btn" name="submit">
+
+  </form>
+  <div id="overlay"></div>
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <script>
+
+window.onload = () => {
+   document.querySelector('.loadermain').style.display = 'none';
+ };
+
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw0x7Kr9S-t0FYZOgCcwGFuWTE18e7ub8NYUQ5ncif7Lj-xFDU98Eh24gQtMr8Ciotw/exec'
+
+const form = document.forms['Nikki Restaurant order details']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! your order is placed successfully." ))
+  .then(() => { e.preventDefault(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+  </script>
+</body>
+
+</html>

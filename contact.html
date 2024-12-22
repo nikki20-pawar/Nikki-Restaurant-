@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikki Restaurant</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="loader.css">
+</head>
+
+<body>
+
+    <div class="loadermain">
+        <div class="loader">
+          <div class="pizza-slice slice-1">
+            <div class="border">
+              <div class="crust"></div>
+              <div class="cheese">
+                <div class="peperoni p-1"></div>
+                <div class="peperoni p-2"></div>
+                <div class="peperoni p-3"></div>
+                <div class="olive o-1"></div>
+                <div class="olive o-3"></div>
+                <div class="olive o-4"></div>
+                <div class="olive o-6"></div>
+                <div class="olive o-7"></div>
+              </div>
+            </div>
+          </div>
+          <div class="pizza-slice slice-2">
+            <div class="border">
+              <div class="crust"></div>
+              <div class="cheese">
+                <div class="peperoni p-1"></div>
+                <div class="peperoni p-2"></div>
+                <div class="peperoni p-3"></div>
+                <div class="olive o-1"></div>
+                <div class="olive o-2"></div>
+                <div class="olive o-3"></div>
+                <div class="olive o-6"></div>
+                <div class="olive o-7"></div>
+              </div>
+            </div>
+          </div>
+          <div class="pizza-slice slice-3">
+            <div class="border">
+              <div class="crust"></div>
+              <div class="cheese">
+                <div class="peperoni p-1"></div>
+                <div class="peperoni p-2"></div>
+                <div class="peperoni p-3"></div>
+                <div class="olive o-3"></div>
+                <div class="olive o-4"></div>
+                <div class="olive o-5"></div>
+                <div class="olive o-6"></div>
+              </div>
+            </div>
+          </div>
+          <div class="pizza-slice slice-4">
+            <div class="border">
+              <div class="crust"></div>
+              <div class="cheese">
+                <div class="peperoni p-1"></div>
+                <div class="peperoni p-2"></div>
+                <div class="peperoni p-3"></div>
+                <div class="olive o-1"></div>
+                <div class="olive o-2"></div>
+                <div class="olive o-3"></div>
+                <div class="olive o-4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="pizza-slice slice-5">
+            <div class="border">
+              <div class="crust"></div>
+              <div class="cheese">
+                <div class="peperoni p-1"></div>
+                <div class="peperoni p-2"></div>
+                <div class="peperoni p-3"></div>
+                <div class="olive o-1"></div>
+                <div class="olive o-2"></div>
+                <div class="olive o-6"></div>
+                <div class="olive o-7"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div> 
+
+    <header>
+        <div id="logo">
+            <img src="pizza logo.png" width="70px" height="70px">
+            <h1 id="main-name">Nikki Restaurant Dashboard</h1>
+        </div>
+    </header>
+    <nav id="navbar">
+
+        <ul>
+            <li><button><a href="/">Order Section</a></button></li>
+            <li><button id="orders-btn"><a href="/services.html">About Us</a></button></li>
+            <li><button id="orders-btn"><a href="/contact.html">Contact Us</a></button></li>
+        </ul>
+    </nav>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form id="contactRestuarant" action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input class="inp" type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input  class="inp" type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input  class="inp" type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    <button class="btn-submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">Copyright &copy; www.NikkiRestaurant.com All rights reserved</div>
+    </footer>
+    <script src="script.js"></script>
+
+    <script>
+
+        window.onload = () => {
+           document.querySelector('.loadermain').style.display = 'none';
+         };
+         </script>
+</body>
+
+</html>
